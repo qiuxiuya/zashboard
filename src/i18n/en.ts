@@ -15,9 +15,6 @@ const en = {
   backendType: 'Backend Type',
   clashApi: 'Clash API',
   singboxApi: 'sing-box API',
-  singboxSupportEndingTitle: 'sing-box support is ending',
-  singboxSupportEndingMessage: 'zashboard will remove support for sing-box in the next release.',
-  dontShowAgain: "Don't show again",
   skip: 'Skip',
   // Tools page
   networkQuality: 'Network Quality',
@@ -269,7 +266,6 @@ const en = {
   expire: 'Expires',
   noExpire: 'No expiry',
   updated: 'Updated',
-  upgradeDashboard: 'Upgrade dashboard',
   reloadConfigs: 'Reload configs',
   updateConfigs: 'Update configs',
   updateConfigsSuccess: 'Configs updated successfully',
@@ -336,7 +332,6 @@ const en = {
   restartCoreConfirm:
     'Restart the core now? The proxy service will be briefly interrupted and existing connections will be dropped.',
   checkCoreUpgrade: 'Check for core upgrades',
-  autoUpgradeDashboard: 'Auto-upgrade dashboard',
   autoUpgradeCore: 'Auto-upgrade core',
   secondaryPath: 'Secondary path',
   secondaryPathTip: 'If present, start with "/", otherwise leave empty.',

@@ -142,11 +142,6 @@ export const queryDNSAPI = (params: { name: string; type: string }) => {
   })
 }
 
-// 面板自升级。mihomo 与 sing-box 的 Clash 兼容 API 都提供,honk 没有(见 dashboardUpgrade)。
-export const upgradeUIAPI = () => {
-  return axios.post('/upgrade/ui')
-}
-
 export const createClashWebSocket = <T>(url: string, searchParams?: Record<string, string>) => {
   const backend = activeBackend.value!
   const resurl = new URL(`${getUrlFromBackend(backend).replace('http', 'ws')}/${url}`)

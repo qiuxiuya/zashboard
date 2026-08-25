@@ -17,9 +17,6 @@ const ru: LANG_MESSAGE = {
   backendType: 'Тип бэкенда',
   clashApi: 'Clash API',
   singboxApi: 'sing-box API',
-  singboxSupportEndingTitle: 'Поддержка sing-box прекращается',
-  singboxSupportEndingMessage: 'zashboard прекратит поддержку sing-box в следующем выпуске.',
-  dontShowAgain: 'Больше не показывать',
   skip: 'Пропустить',
   // Tools
   networkQuality: 'Качество сети',
@@ -271,7 +268,6 @@ const ru: LANG_MESSAGE = {
   expire: 'Истекает',
   noExpire: 'Нет',
   updated: 'Обновлено',
-  upgradeDashboard: 'Обновить панель до новой версии',
   reloadConfigs: 'Перезагрузить конфигурации',
   updateConfigs: 'Обновить конфигурации',
   updateConfigsSuccess: 'Конфигурации успешно обновлены',
@@ -338,7 +334,6 @@ const ru: LANG_MESSAGE = {
   restartCoreConfirm:
     'Перезапустить ядро сейчас? Работа прокси ненадолго прервётся, существующие соединения будут разорваны.',
   checkCoreUpgrade: 'Проверить доступность обновления ядра',
-  autoUpgradeDashboard: 'Автоматически обновлять панель до новой версии',
   autoUpgradeCore: 'Автоматически обновлять ядро до новой версии',
   secondaryPath: 'Дополнительный путь',
   secondaryPathTip: 'Если присутствует, начните с "/", в противном случае оставьте пустым.',
